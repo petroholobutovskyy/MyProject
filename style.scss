@@ -1,0 +1,169 @@
+body {
+  background-image: url("../../images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+
+  .header-logo {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+  .header__user-container {
+    display: flex;
+    .header-user {
+      margin-right: 10px;
+    }
+  }
+}
+
+
+
+.header__navigation {
+  display: flex;
+  justify-content: center;
+
+  .navigation-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+    .navigation-list-item {
+      padding: 10px 20px;
+
+      a {
+        text-decoration: none;
+      }
+
+    }
+  }
+}
+
+
+
+.main__info-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.main__info-header {
+  text-align: center;
+  padding: 20px;
+}
+
+.btn-div {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.main__info-text {
+  padding: 0 20%;
+}
+.excursion__main-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px dotted darkred;
+  justify-content: space-between;
+}
+.excursion__single-container {
+  width: 48%;
+  border: 1px dotted black;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.excursion-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+.excursion__header {
+  text-align: center;
+  font-size: 24px;
+}
+.excursion__text {
+  text-align: center;
+}
+
+.services__header {
+  text-align: center;
+}
+
+.service-container {
+  display: flex;
+  padding: 10px;
+  border: 1px dotted darkblue;
+}
+
+.service__text-left {
+  padding-left: 20px;
+}
+.service__text-right {
+  padding-right: 20px;
+}
+.why-us__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.why-us__header {
+  margin:  25px 0;
+}
+
+.why-us-reasons {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.single-reason {
+  border: 1px dotted blue;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+.form, .form__header {
+  text-align: center;
+}
+
+input, select, textarea {
+  width: 80%;
+}
+
+.input-single {
+  padding: 5px 0;
+}
+
+.btn-form {
+  margin: 25px;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.social-media-icons {
+  display: flex;
+}
+
+.social-media-icons > div {
+  margin-right: 10px;
+}
