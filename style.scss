@@ -1,169 +1,251 @@
-body {
-  background-image: url("../../images/background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.container {
-  width: 900px;
-  margin: 0 auto;
-}
-
-
-.header__container {
-  display: flex;
-  justify-content: space-between;
-
-  .header-logo {
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
-  }
-  .header__user-container {
-    display: flex;
-    .header-user {
-      margin-right: 10px;
-    }
-  }
-}
-
-
-
-.header__navigation {
-  display: flex;
-  justify-content: center;
-
-  .navigation-list {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-
-    .navigation-list-item {
-      padding: 10px 20px;
-
-      a {
-        text-decoration: none;
-      }
-
-    }
-  }
-}
-
-
-
-.main__info-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-.main__info-header {
-  text-align: center;
-  padding: 20px;
-}
-
-.btn-div {
-  text-align: center;
-  margin-bottom: 10px;
-}
-.main__info-text {
-  padding: 0 20%;
-}
-.excursion__main-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  border: 1px dotted darkred;
-  justify-content: space-between;
-}
-.excursion__single-container {
-  width: 48%;
-  border: 1px dotted black;
-  margin: 5px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-.excursion-buttons {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 10px;
-}
-
-.excursion__header {
-  text-align: center;
-  font-size: 24px;
-}
-.excursion__text {
-  text-align: center;
-}
-
-.services__header {
-  text-align: center;
-}
-
-.service-container {
-  display: flex;
-  padding: 10px;
-  border: 1px dotted darkblue;
-}
-
-.service__text-left {
-  padding-left: 20px;
-}
-.service__text-right {
-  padding-right: 20px;
-}
-.why-us__container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.why-us__header {
-  margin:  25px 0;
-}
-
-.why-us-reasons {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.single-reason {
-  border: 1px dotted blue;
-  padding: 20px;
-  margin-bottom: 25px;
-}
-
-.form, .form__header {
-  text-align: center;
-}
-
-input, select, textarea {
-  width: 80%;
-}
-
-.input-single {
-  padding: 5px 0;
-}
-
-.btn-form {
-  margin: 25px;
-}
-
-.footer__container {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-}
-
-.social-media-icons {
-  display: flex;
-}
-
-.social-media-icons > div {
-  margin-right: 10px;
-}
+//.services__header {
+//  text-align: center;
+//  padding-bottom: 10px;
+//  margin-top: 40px;
+//  border-bottom: 3px solid orangered;
+//}
+//
+//.service-container {
+//  display: flex;
+//  padding: 30px 0;
+//  border-bottom: 3px solid orangered;
+//
+//  &:last-child {
+//    margin-bottom: 30px;
+//  }
+//  img {
+//    width: 300px;
+//    height: 200px;
+//  }
+//}
+//.service-header {
+//  font-weight: bold;
+//}
+//
+//.service-description {
+//  display: flex;
+//  flex-direction: column;
+//  padding: 0 20px;
+//}
+//
+//.service__text {
+//  margin-top: 30px;
+//}
+//
+//@import "../settings/mixins";
+//.excursion__main-container {
+//  display: flex;
+//  flex-direction: row;
+//  flex-wrap: wrap;
+//  justify-content: space-between;
+//}
+//.excursion__single-container {
+//  width: 48%;
+//  height: auto;
+//  color: white;
+//  margin: 30px 0 10px;
+//  display: flex;
+//  justify-content: center;
+//  flex-direction: column;
+//  align-items: center;
+//  transition: 0.3s ease-in;
+//
+//  &:hover {
+//    transform: scale(1.1);
+//
+//  }
+//
+//  img {
+//    width: 100%;
+//    height: 100%;
+//  }
+//
+//  .excursion__header-container {
+//    background-color: white;
+//    color: black;
+//
+//    .excursion__header {
+//      background-color: orangered;
+//      color: white;
+//    }
+//  }
+//}
+//
+//.excursion-buttons {
+//  width: 100%;
+//  display: flex;
+//  justify-content: space-evenly;
+//  margin: 20px 0 30px;
+//
+//  .single-btn {
+//    @include buttons(orangered, white, darkorange)
+//
+//  }
+//
+//  .more-info-button {
+//    @include buttons(mediumblue, white, dodgerblue)
+//  }
+//
+//
+//}
+//
+//.excursion__header {
+//  text-align: center;
+//  font-size: 24px;
+//}
+//.excursion__text {
+//  text-align: center;
+//  padding: 5px;
+//}
+//
+//
+//
+//
+//.footer__container {
+//  display: flex;
+//  justify-content: space-between;
+//  padding: 20px;
+//}
+//
+//.social-media-icons {
+//  display: flex;
+//}
+//
+//.social-media-icons > div {
+//  margin-right: 10px;
+//}
+//
+//.form, .form__header {
+//  text-align: center;
+//}
+//
+//input, select, textarea {
+//  width: 80%;
+//}
+//
+//.input-single {
+//  padding: 5px 0;
+//}
+//
+//.btn-form {
+//  margin: 25px;
+//}
+//@import "../settings/fonts";
+//body {
+//  background-image: url("../../images/background.jpg");
+//  background-size: cover;
+//  background-repeat: no-repeat;
+//  font-family: $font-general;
+//}
+//
+//.container {
+//  width: 1100px;
+//  margin: 0 auto;
+//}
+//
+//
+//@import "../settings/fonts";
+//.header__container {
+//  display: flex;
+//  justify-content: space-between;
+//
+//  .header-logo {
+//    font-weight: bold;
+//    color: white;
+//    text-decoration: none;
+//    font-size: 34px;
+//    font-family: $font-logo;
+//    padding: 15px;
+//
+//    span {
+//      color: red;
+//    }
+//  }
+//  .header__user-container {
+//    display: flex;
+//    align-items: center;
+//    margin-right: 20px;
+//    font-size: 30px;
+//    color: white;
+//    .icon-shopping-cart {
+//      margin-left: 10px;
+//      color: red;
+//    }
+//  }
+//}
+//
+//
+//
+//.header__navigation {
+//  display: flex;
+//  justify-content: center;
+//  background-color: dodgerblue;
+//
+//
+//  .navigation-list {
+//    display: flex;
+//    flex-direction: row;
+//    list-style: none;
+//
+//    .navigation-list-item {
+//      padding: 10px 20px;
+//
+//      a {
+//        text-decoration: none;
+//        color: white;
+//
+//        &:hover {
+//          transition: 5s;
+//          border-bottom: 2px solid white;
+//
+//
+//        }
+//      }
+//
+//    }
+//  }
+//}
+//
+//
+//
+//
+//.carousel-item {
+//  position: relative;
+//}
+//.carousel-header {
+//  position: relative;
+//  bottom: 100px;
+//}
+//.carousel-text {
+//  position: relative;
+//  bottom: 80px;
+//}
+//.why-us__container {
+//  display: flex;
+//  flex-direction: column;
+//  align-items: center;
+//  background-color: white;
+//}
+//
+//.why-us__header {
+//  margin:  25px 0;
+//}
+//
+//.why-us-reasons {
+//  width: 100%;
+//  display: flex;
+//  justify-content: space-evenly;
+//}
+//
+//.single-reason {
+//  padding: 20px;
+//  margin-bottom: 25px;
+//  text-align: center;
+//  background-color: orangered;
+//  color: white;
+//
+//  .whu-us-icons {
+//    font-size: 48px;
+//    margin-bottom: 15px;
+//  }
+//}
